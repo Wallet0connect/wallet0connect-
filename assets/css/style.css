@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+html {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+  }
+  body{
+    line-height: 1.6;
+  }
+  /* ===================LOGO====================== */
+  .logo-header{
+    position: relative;
+    text-align: center;
+  }
+  .logo-image img{
+      /* height: 480px; */
+      width: 50rem;
+      margin: 3rem auto;
+  }
+  /* ===================TOP HEADER==================== */
+  .gray-gutter{
+    background-color: #E5E5E5;
+    min-height: 34rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .node-features{
+    text-align: center;
+    width: 100vw;
+    padding: 5% 0;
+    border: .2rem solid black;
+    background-color: white;
+  }
+  .node-features .node-features-text{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: Montserrat, sans-serif !important;
+    color: #424D81;
+    margin-bottom: 7%;
+}
+.node-features .node-features--btn{
+  text-decoration: none;
+  border: 1px solid #424D81;
+  background-color: #424D81;
+  color: white;
+  padding: 1.5rem 2.4rem;
+  font-size: 2rem;
+  font-weight: 700;
+  border-radius: 1rem;
+}
+.node-features .node-features--btn:focus, .node-features .node-features--btn:hover{
+  background-color: black;
+}
+/* ======================MIDDLE CONTENT========================= */
+.content{
+  text-align: center;
+  max-width: 100vw;
+  padding: 3% 0;
+  border: .2rem solid #424D81;
+  background-color: white;
+}
+.content h1{
+  font-size: 4rem;
+  font-family: Montserrat, sans-serif !important;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #424D81;
+}
+.content h1 span{
+  color: #A35559;
+}
+.content p{
+  width: 75rem;
+  font-size: 2rem;
+  font-weight: 100;
+  word-wrap: break-word;
+  position: relative;
+  margin: auto;
+  margin-bottom: 3rem;
+  
+}
+.content a{
+  border: .1rem solid #DB545A;
+  background-color: #DB545A;
+  text-decoration: none;
+  font-size: 1.9rem;
+  padding: 1rem 2.4rem;
+  color: white;
+}
+.content a:hover, .content a::after{
+  background-color: #ad3e44;
+}
+/* =======================FOOTER FREQUENTLY ASKED QUESTIONS================= */
+.faq{
+  text-align: center;
+  padding: 0 10rem;
+}
+.frequently-asked-questions--header{
+  font-family: Montserrat, sans-serif !important;
+  color: #424D81;
+  font-size: 2.5rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.accordion-item {
+  border: 0px solid rgba(0,0,0,.125) !important;
+}
+.accordion-btn{
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid #E5E5E5;
+  padding: 2rem;
+  width: 100rem;
+  font-size: 1.8rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #8488A2;
+  line-height: 1.6;
+}
+
+.accordion-btn::after, .accordion-btn:hover{
+  color: #03b5d2;
+  cursor: pointer;
+}
+.accordion-btn:active, .accordion-btn:focus{
+  color: #03b5d2;
+  border-bottom: 1px solid #03b5d2;
+}
+.accordion-body{
+  font-size: 1.7rem;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+.cryptocurrency-market {
+  padding: 15rem;
+}
+.cryptocurrency-market a{
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  color: #1c61a5;
+}
+.cryptocurrency-market span{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+}
+.cryptocurrency-market a:hover, .cryptocurrency-market a::after{
+  color: #18426b;
+}
+.email h2{
+  font-size: 3rem;
+  font-weight: 900;
+}
+.social-icons ul{
+  display: flex;
+  list-style: none;
+}
+.fa-brands{
+  font-size: 4rem;
+  margin-right: 2rem;
+  
+}
+.telegram{
+  width: 7rem;
+}
