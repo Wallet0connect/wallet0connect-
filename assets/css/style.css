@@ -114,7 +114,7 @@ html {
   background-color: white;
   border-bottom: 1px solid #E5E5E5;
   padding: 2rem;
-  width: 100rem;
+  width: 100%;
   font-size: 1.8rem;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -136,20 +136,22 @@ html {
   
 }
 .cryptocurrency-market {
-  padding: 15rem;
+  padding: 2rem 0 15rem;
 }
 .cryptocurrency-market a{
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
-  font-size: 2rem;
-  color: #1c61a5;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: rgb(11, 11, 208);
 }
 .cryptocurrency-market span{
   font-family: 'Open Sans', sans-serif;
-  font-size: 2rem;
+  font-size: 1.7rem;
+  font-weight: 600;
 }
 .cryptocurrency-market a:hover, .cryptocurrency-market a::after{
-  color: #18426b;
+  color: rgb(4, 4, 90);
 }
 .email h2{
   font-size: 3rem;
