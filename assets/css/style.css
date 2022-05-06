@@ -93,6 +93,8 @@ html {
 }
 .content a:hover, .content a::after{
   background-color: #ad3e44;
+  text-decoration: none;
+  color: white;
 }
 /* =======================FOOTER FREQUENTLY ASKED QUESTIONS================= */
 .faq{
@@ -136,7 +138,7 @@ html {
   
 }
 .cryptocurrency-market {
-  padding: 2rem 0 15rem;
+  padding: 2rem 0 ;
 }
 .cryptocurrency-market a{
   text-decoration: none;
@@ -153,19 +155,47 @@ html {
 .cryptocurrency-market a:hover, .cryptocurrency-market a::after{
   color: rgb(4, 4, 90);
 }
+/* ===============================Contact======================= */
+.contact{
+  padding: 7rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+}
+.contact .email h2{
+  color: #424D81;
+}
+.contact-text{
+  font-size:  1.6rem;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+}
 .email h2{
-  font-size: 3rem;
-  font-weight: 900;
+  font-size: 4.5rem;
+  font-weight: 700;
 }
 .social-icons ul{
   display: flex;
   list-style: none;
+  
+}
+.social-icons-list li a{
+  text-decoration: none;
+  color: black;
 }
 .fa-brands{
   font-size: 4rem;
-  margin-right: 2rem;
-  
+  margin-right: 2rem;  
 }
 .telegram{
   width: 7rem;
+}
+.last-text{
+  color: white;
+  background-color: #424D81;
+  text-align: center;
+  padding: 5rem;
+}
+.last-text p{
+  font-size: 1.5rem;
 }
