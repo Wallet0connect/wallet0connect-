@@ -18,7 +18,7 @@ html {
   .logo-image img{
       /* height: 480px; */
       width: 50rem;
-      margin: 3rem auto;
+      margin: 3rem;
   }
   /* ===================TOP HEADER==================== */
   .gray-gutter{
