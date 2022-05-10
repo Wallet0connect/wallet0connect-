@@ -218,6 +218,8 @@ html {
 @media screen and (max-width: 48em) {
   html {
       font-size: 52%;
+  } .gray-gutter{
+    min-height: 28rem;
   }
   .logo-image img{
     width: 30rem;
@@ -228,6 +230,7 @@ html {
   html {
       font-size: 30%;
   }
+ 
   .content p{
     font-size: 3rem;
   }
