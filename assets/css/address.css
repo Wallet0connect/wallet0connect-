@@ -84,9 +84,7 @@
       line-height: 1;
       cursor: pointer;
   }
-  .phrase-container{
-      display: none;
-  }
+  
   .keystore-container{
       display: none;
   }
