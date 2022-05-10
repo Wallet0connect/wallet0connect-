@@ -218,8 +218,9 @@ html {
 @media screen and (max-width: 48em) {
   html {
       font-size: 52%;
-  } .gray-gutter{
-    min-height: 28rem;
+  }
+  .node-features{
+    padding: 8% 0;
   }
   .logo-image img{
     width: 30rem;
