@@ -246,11 +246,9 @@ html {
 @media screen and (max-width: 30em) {
   html{
     font-size: 25%;
-  } .node-features{
-    padding: 9% 0;
   }
   .node-features-text{
-    font-size: 5rem;
+    font-size: 5rem !important;
   }
 
   
