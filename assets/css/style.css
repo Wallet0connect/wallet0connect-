@@ -23,10 +23,10 @@ html {
   /* ===================TOP HEADER==================== */
   .gray-gutter{
     background-color: #E5E5E5;
-    height: 34rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 20vh;
   }
   .node-features{
     text-align: center;
