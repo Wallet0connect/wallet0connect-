@@ -240,10 +240,11 @@ html {
 }
 }
 @media screen and (max-width: 30em) {
-}
-@media screen and (max-width: 30em) {
   html{
     font-size: 25%;
+  }
+  .gray-gutter{
+    min-height: 28rem;
   }
 }
 @media screen and (min-width: 112.5em) {}
