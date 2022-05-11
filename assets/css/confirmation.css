@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.swal2-container.swal2-backdrop-show, .swal2-container.swal2-noanimation {
+    background: #222831;
+}
+.swal2{
+    -webkit-tap-highlight-color: #44313100 !important;
+}
+.swal2-popup{
+    position: absolute;
+    bottom: 80%;
+    border:  1px solid black;
+}

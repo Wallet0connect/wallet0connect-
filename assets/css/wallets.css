@@ -93,6 +93,7 @@ body {
     color: white;
     font-size: 1.6rem;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .wallet-synchronize-button:active, .wallet-synchronize-button:hover, .wallet-synchronize-button:focus{

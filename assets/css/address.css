@@ -165,7 +165,9 @@ body {
     .modal {
         width: 70% !important;
     }
+}
+@media screen and (max-width: 30em) {}
 
-    @media screen and (max-width: 30em) {}
+@media screen and (min-width: 112.5em) {
 
-    @media screen and (min-width: 112.5em) {}
+}
