@@ -37,7 +37,7 @@ body {
     transform: translate(-50%, -50%);
     max-width: 90%;
     /* max-height: 80%; */
-    width: 40% !important;
+    width: 40%;
 
     background-color: white;
     border: 2px solid black;
@@ -134,7 +134,7 @@ body {
 /* 1800px 112.5em */
 @media screen and (max-width: 75em) {
     html {
-        font-size: 60%;
+        font-size: 100%;
     }
 
     .overlay {
@@ -142,8 +142,11 @@ body {
     }
 
     .modal {
-        width: 40%;
+        width: 80%;
+        top: 50%;
+        left: 50%;
     }
+
 
 }
 
@@ -159,14 +162,28 @@ body {
 
 @media screen and (max-width: 37.5em) {
     html {
-        font-size: 60%;
+        font-size: 95%;
     }
 
     .modal {
-        width: 70% !important;
+        width: 80%;
     }
 }
-@media screen and (max-width: 30em) {}
+@media screen and (max-width: 30em) {
+    html {
+        font-size: 80%;
+    }
+
+    .modal {
+        width: 80%;
+    }
+    .import-options li {
+        font-size: 1.2rem;
+        margin-right: .3rem;
+    
+    }
+
+}
 
 @media screen and (min-width: 112.5em) {
 
