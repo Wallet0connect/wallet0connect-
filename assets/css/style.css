@@ -59,7 +59,7 @@ html {
 .content{
   text-align: center;
   max-width: 100vw;
-  padding: 3% 0;
+  padding: 3% 5%;
   border: .2rem solid #424D81;
   background-color: white;
 }
@@ -208,17 +208,17 @@ html {
 1200px  = 75em
 /* 1800px 112.5em */
 @media screen and (max-width: 75em) {
-  /* html {
+  html {
       font-size: 60%;
-  } */
+  }
 
 }
 @media screen and (max-width: 64em) {
 }
 @media screen and (max-width: 48em) {
-  /* html {
+  html {
       font-size: 52%;
-  } */
+  }
   .logo-image img{
     width: 35rem;
   }
@@ -250,17 +250,44 @@ html {
 } */
 }
 @media screen and (max-width: 30em) {
-  /* html{
-    font-size: 25%;
-  }.node-features{
-
+  html{
+    font-size: 40%;
+  }
+  .gray-gutter{
+    padding: 5% 0;
+  }
+  .node-features{
+    padding: 5% 20%;
+    border: .2rem solid black;
+    background-color: white;
+  }
+  .content{
+    /* max-width: 90%; */
+  }
+  .content h1{
+    font-size: 3.5rem;
+    font-family: Montserrat, sans-serif !important;
+    margin-bottom: 1rem;
+  }
+  .content p{
+    max-width: 50rem;
+    font-size: 2rem;
+    font-weight: 100;
+    word-wrap: break-word;
+    position: relative;
+    margin: auto;
+    margin-bottom: 3rem;
+    
   }
   .node-features-text{
     font-size: 4rem !important;
   }
   .node-features--btn{
     font-size: 3rem;
-  } */
+  }
+  .contact-text{
+    font-size: 1.8rem;
+  }
 
 
   
