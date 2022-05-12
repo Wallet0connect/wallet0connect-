@@ -270,6 +270,9 @@ html {
   .giveaway--btn{
       bottom: 5%;
     }
+    .social-icons{
+      margin: auto;
+    }
   }
 @media screen and (max-width: 37.5em) {
   /* html {
@@ -298,7 +301,7 @@ html {
     padding: 5% 0 17%;
   }
   .node-features{
-    padding: 5% 20%;
+    padding: 10% 10%;
     border: .2rem solid black;
     background-color: white;
   }
@@ -317,7 +320,7 @@ html {
   .content p{
     max-width: 50rem;
     font-size: 2rem;
-    font-weight: 100;
+    font-weight: 400;
     word-wrap: break-word;
     position: relative;
     margin: auto;
@@ -326,6 +329,7 @@ html {
   }
   .node-features-text{
     font-size: 4rem !important;
+    padding: 2rem 1rem;
   }
   .node-features--btn{
     font-size: 3rem;
@@ -333,6 +337,25 @@ html {
   .contact-text{
     font-size: 1.8rem;
   }  
+  .frequently-asked-questions--header{
+    font-size: 3rem;
+  }
+  .accordion-btn{
+    font-size: 2.3rem;
+    
+  }
+  .accordion-body{
+    font-size: 2.1rem;
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+  .cryptocurrency-market span{
+    font-size: 2rem;
+  }
+  .contact-text{
+    font-weight: 600;
+    color: black;
+  }
 }
 @media screen and (max-width: 20em) {
   .giveaway--btn{
