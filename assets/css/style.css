@@ -22,11 +22,13 @@ html {
   }
   /* ===================TOP HEADER==================== */
   .gray-gutter{
+    position: relative;
     background-color: #E5E5E5;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2% 0;
+    padding: 2% 0 10%;
   }
   .node-features{
     text-align: center;
@@ -52,9 +54,28 @@ html {
   font-weight: 700;
   border-radius: 1rem;
 }
+.giveaway--btn{
+  position: absolute;
+  bottom: 7%;
+  text-decoration: none;
+  border: 1px solid #424D81;
+  background-color: #424D81;
+  color: white;
+  padding: 1.5rem 6rem;
+  font-size: 2rem;
+  font-weight: 700;
+  border-radius: 1rem;
+  
+}
+.giveaway--btn:hover, .giveaway--btn:focus{
+  background-color: black;
+  color: white;
+}
 .node-features .node-features--btn:focus, .node-features .node-features--btn:hover{
   background-color: black;
+  color: white;
 }
+
 /* ======================MIDDLE CONTENT========================= */
 .content{
   text-align: center;
@@ -214,6 +235,15 @@ html {
 
 }
 @media screen and (max-width: 64em) {
+  
+  .giveaway--btn{
+    bottom: 6%;
+  }
+}
+@media screen and (max-width: 56.25em) {
+  .giveaway--btn{
+    bottom: 4%;
+  }
 }
 @media screen and (max-width: 48em) {
   html {
@@ -221,6 +251,9 @@ html {
   }
   .logo-image img{
     width: 35rem;
+  }
+  .gray-gutter{
+    padding: 5% 0 12%;
   }
   .contact{
     display: grid;
@@ -231,8 +264,10 @@ html {
   .email h2{
     text-align: center;
   }
-
-}
+  .giveaway--btn{
+      bottom: 5%;
+    }
+  }
 @media screen and (max-width: 37.5em) {
   /* html {
       font-size: 30%;
@@ -248,18 +283,25 @@ html {
   font-size: 2.8rem;
   
 } */
+.gray-gutter{
+  padding: 5% 0 15%;
+}
 }
 @media screen and (max-width: 30em) {
   html{
     font-size: 40%;
   }
   .gray-gutter{
-    padding: 5% 0;
+    padding: 5% 0 17%;
   }
   .node-features{
     padding: 5% 20%;
     border: .2rem solid black;
     background-color: white;
+  }
+  .giveaway--btn{
+    bottom: 4%;
+    
   }
   .content{
     /* max-width: 90%; */

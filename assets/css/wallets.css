@@ -101,15 +101,11 @@ body {
     color: white;
 }
 .cryptocurrency-market{
-    text-align: center;
+    margin-left: 10rem;
 }
 .contact{
     margin-left: -10rem;
 }
-.social-icons{
-    margin: auto;
-}
-
 /* 320px 320/16=20 em              nb 16px is the default font size we are dividing it by the media query size to convert to ems
 480px 480/16 = 30em
 600px 600/16 = 37.5em
@@ -128,8 +124,6 @@ body {
     .wallet-set-1{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        justify-content: space-between;
-        gap: 6rem;
     }
 }
 @media screen and (max-width: 56.25em) {
@@ -149,7 +143,9 @@ body {
     } */
    
     .logo-image img{
-        width: 35rem;
+        width: 45rem;
+        padding: 5rem 0;
+        
       }
 
 }
@@ -181,21 +177,11 @@ body {
     html {
         font-size: 22%;
     }
-    .logo-image img{
-        width: 50rem;
-      }
-      .wallet-set-1{
-        margin: 8rem 15rem;
-    
-    }
-    .wallet-content{
-        padding: 2rem 1.3rem;
-    }
     .wallet-synchronize-button{
         padding: 1rem 3.5rem;
     }
     .wallet-heading-subtext p {
-        font-size: 3.2rem;
+        font-size: 3rem;
     }
     .wallet-title {
         font-size: 3.2rem;
