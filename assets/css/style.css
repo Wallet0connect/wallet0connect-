@@ -205,11 +205,12 @@ html {
   color: black;
 }
 .fa-brands{
-  font-size: 4rem;
+  font-size: 6rem;
   margin-right: 2rem;  
 }
 .telegram{
-  width: 7rem;
+  width: 10rem;
+  margin-left: -2rem;
 }
 .last-text{
   color: white;
@@ -307,6 +308,7 @@ html {
   }
   .giveaway--btn{
     bottom: 4%;
+    font-size: 2.5rem;
     
   }
   .content{
@@ -332,7 +334,7 @@ html {
     padding: 2rem 1rem;
   }
   .node-features--btn{
-    font-size: 3rem;
+    font-size: 2.5rem !important;
   }
   .contact-text{
     font-size: 1.8rem;
