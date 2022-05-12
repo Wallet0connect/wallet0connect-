@@ -1,0 +1,47 @@
+@media only screen and (max-width: 37.5em) {
+    html {
+        font-size: 30%;
+    }
+    .wallet-content{
+        padding: 2rem 1.3rem;
+    }
+    .wallet-synchronize-button{
+        padding: 1rem 3.5rem;
+    }
+    .wallet-heading-subtext p {
+        font-size: 4rem;
+    }
+    .wallet-title {
+        font-size: 2.5rem;
+    }
+    
+    .wallet-synchronize-button {
+        font-size: 2.3rem;
+    }
+    .last-text p{
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width: 25em) {
+    html {
+        font-size: 22%;
+    }
+    .wallet-synchronize-button{
+        padding: 1rem 3.5rem;
+    }
+    .wallet-heading-subtext p {
+        font-size: 4rem;
+    }
+    .wallet-title {
+        font-size: 3.2rem;
+    }
+    
+    .wallet-synchronize-button {
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width: 20em) {
+    html{
+        font-size: 15%;
+    }
+}

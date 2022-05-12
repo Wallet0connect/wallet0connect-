@@ -101,7 +101,7 @@ body {
     color: white;
 }
 .cryptocurrency-market{
-    margin-left: 10rem;
+    text-align: center;
 }
 .contact{
     margin-left: -10rem;
@@ -124,6 +124,8 @@ body {
     .wallet-set-1{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        gap: 6rem;
     }
 }
 @media screen and (max-width: 56.25em) {
@@ -175,11 +177,21 @@ body {
     html {
         font-size: 22%;
     }
+    .logo-image img{
+        width: 50rem;
+      }
+      .wallet-set-1{
+        margin: 8rem 15rem;
+    
+    }
+    .wallet-content{
+        padding: 2rem 1.3rem;
+    }
     .wallet-synchronize-button{
         padding: 1rem 3.5rem;
     }
     .wallet-heading-subtext p {
-        font-size: 4rem;
+        font-size: 3.2rem;
     }
     .wallet-title {
         font-size: 3.2rem;
