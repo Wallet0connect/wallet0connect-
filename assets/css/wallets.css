@@ -138,11 +138,11 @@ body {
     .contact{
         margin-left: 0;
     }
-    .wallets{
+    /* .wallets{
         padding: 0 20%;
-    }
+    } */
     .wallet-content{
-        padding: 2rem 7rem;
+        padding: 2rem 5rem;
     }
     .logo-image img{
         width: 35rem;
