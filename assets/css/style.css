@@ -329,9 +329,13 @@ html {
   }
   .contact-text{
     font-size: 1.8rem;
+  }  
+}
+@media screen and (max-width: 20em) {
+  .giveaway--btn{
+    bottom: 2%;
+    
   }
 
-
-  
 }
 @media screen and (min-width: 112.5em) {}
