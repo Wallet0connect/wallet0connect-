@@ -159,6 +159,9 @@ body {
         margin-bottom: 6rem;
 
     }
+    .wallets{
+        max-width: 95vw;
+    }
 
 }
 
