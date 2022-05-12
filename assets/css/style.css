@@ -312,7 +312,7 @@ html {
     
   }
   .content{
-    /* max-width: 90%; */
+    max-width: 90%;
   }
   .content h1{
     font-size: 3.5rem;
@@ -340,19 +340,19 @@ html {
     font-size: 1.8rem;
   }  
   .frequently-asked-questions--header{
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .accordion-btn{
-    font-size: 2.3rem;
+    font-size: 2.8rem;
     
   }
   .accordion-body{
-    font-size: 2.1rem;
+    font-size: 2.5rem;
     font-family: 'Open Sans', sans-serif;
     
   }
   .cryptocurrency-market span{
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .contact-text{
     font-weight: 600;
