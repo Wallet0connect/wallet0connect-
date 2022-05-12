@@ -334,7 +334,7 @@ html {
 @media screen and (max-width: 20em) {
   .giveaway--btn{
     bottom: 2%;
-    
+    /* color: #383a93; */
   }
 
 }
