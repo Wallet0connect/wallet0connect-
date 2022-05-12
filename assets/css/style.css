@@ -312,12 +312,13 @@ html {
     
   }
   .content{
-    max-width: 90%;
+    /* max-width: 90%; */
   }
   .content h1{
     font-size: 3.5rem;
     font-family: Montserrat, sans-serif !important;
     margin-bottom: 1rem;
+    max-width: 90%;
   }
   .content p{
     max-width: 50rem;
