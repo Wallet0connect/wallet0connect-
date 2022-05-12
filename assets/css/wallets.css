@@ -55,7 +55,7 @@ body {
     width: 120rem;
 }
  */
-.wallet-set-1{
+.wallet-set-1 {
     margin: 8rem 15rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -64,6 +64,7 @@ body {
     justify-content: center;
 
 }
+
 .wallet-content {
     /* box-sizing: border-box; */
     text-align: center;
@@ -71,6 +72,7 @@ body {
     border-radius: 2rem;
     padding: 2rem 0;
 }
+
 .wallet-logo {
     height: 15rem;
     width: 15.5rem;
@@ -96,16 +98,19 @@ body {
     cursor: pointer;
 }
 
-.wallet-synchronize-button:active, .wallet-synchronize-button:hover, .wallet-synchronize-button:focus{
+.wallet-synchronize-button:active, .wallet-synchronize-button:hover, .wallet-synchronize-button:focus {
     background-color: #259bca;
     color: white;
 }
-.cryptocurrency-market{
+
+.cryptocurrency-market {
     margin-left: 10rem;
 }
-.contact{
+
+.contact {
     margin-left: -10rem;
 }
+
 /* 320px 320/16=20 em              nb 16px is the default font size we are dividing it by the media query size to convert to ems
 480px 480/16 = 30em
 600px 600/16 = 37.5em
@@ -120,79 +125,97 @@ body {
     }
 
 }
+
 @media screen and (max-width: 64em) {
-    .wallet-set-1{
+    .wallet-set-1 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
 @media screen and (max-width: 56.25em) {
-    html{
+    html {
         font-size: 52%;
     }
 }
+
 @media screen and (max-width: 48em) {
     html {
         font-size: 52%;
     }
-    .contact{
+
+    .contact {
         margin-left: 0;
     }
+
     /* .wallets{
         padding: 0 20%;
     } */
-   
-    .logo-image img{
+
+    .logo-image img {
         width: 45rem;
         padding: 5rem 0;
-        
-      }
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+
+    }
 
 }
+
 @media screen and (max-width: 37.5em) {
     html {
         font-size: 30%;
     }
-    .wallet-content{
+
+    .wallet-content {
         padding: 2rem 1.3rem;
     }
-    .wallet-synchronize-button{
+
+    .wallet-synchronize-button {
         padding: 1rem 3.5rem;
     }
+
     .wallet-heading-subtext p {
         font-size: 4rem;
     }
+
     .wallet-title {
         font-size: 2.5rem;
     }
-    
+
     .wallet-synchronize-button {
         font-size: 2.3rem;
     }
-    .last-text p{
+
+    .last-text p {
         font-size: 3rem;
     }
 }
+
 @media screen and (max-width: 25em) {
     html {
         font-size: 22%;
     }
-    .wallet-synchronize-button{
+
+    .wallet-synchronize-button {
         padding: 1rem 3.5rem;
     }
+
     .wallet-heading-subtext p {
         font-size: 3rem;
     }
+
     .wallet-title {
         font-size: 3.2rem;
     }
-    
+
     .wallet-synchronize-button {
         font-size: 3rem;
     }
 }
+
 @media screen and (max-width: 20em) {
-    html{
+    html {
         font-size: 15%;
     }
 }
