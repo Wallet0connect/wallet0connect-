@@ -141,9 +141,7 @@ body {
     /* .wallets{
         padding: 0 20%;
     } */
-    .wallet-content{
-        padding: 2rem 5rem;
-    }
+   
     .logo-image img{
         width: 35rem;
       }
@@ -152,6 +150,9 @@ body {
 @media screen and (max-width: 37.5em) {
     html {
         font-size: 30%;
+    }
+    .wallet-content{
+        padding: 2rem 2rem;
     }
     .wallet-synchronize-button{
         padding: 1rem 3.5rem;
