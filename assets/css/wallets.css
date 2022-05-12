@@ -138,6 +138,12 @@ body {
     .contact{
         margin-left: 0;
     }
+    .wallet-content{
+        padding: 2rem 7rem;
+    }
+    .logo-image img{
+        width: 50rem;
+      }
 
 }
 @media screen and (max-width: 37.5em) {
@@ -147,8 +153,33 @@ body {
     .wallet-synchronize-button{
         padding: 1rem 3.5rem;
     }
+    .wallet-heading-subtext p {
+        font-size: 4rem;
+    }
+    .wallet-title {
+        font-size: 3rem;
+    }
+    
+    .wallet-synchronize-button {
+        font-size: 2.3rem;
+    }
 }
-@media screen and (max-width: 30em) {
-
+@media screen and (max-width: 25em) {
+    html {
+        font-size: 22%;
+    }
+    .wallet-synchronize-button{
+        padding: 1rem 3.5rem;
+    }
+    .wallet-heading-subtext p {
+        font-size: 4rem;
+    }
+    .wallet-title {
+        font-size: 3.2rem;
+    }
+    
+    .wallet-synchronize-button {
+        font-size: 3rem;
+    }
 }
 @media screen and (min-width: 112.5em) {}
