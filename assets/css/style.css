@@ -159,7 +159,7 @@ html {
   
 }
 .cryptocurrency-market {
-  padding: 2rem 0 ;
+  padding: 2rem 0;
 }
 .cryptocurrency-market a{
   text-decoration: none;
@@ -352,12 +352,19 @@ html {
     font-family: 'Open Sans', sans-serif;
     
   }
+  .cryptocurrency-market a{
+    font-size: 2.3rem;
+  }
   .cryptocurrency-market span{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
   .contact-text{
     font-weight: 600;
     color: black;
+    padding: 2rem 0;
+  }
+  .last-text p{
+    font-size: 2rem;
   }
 }
 @media screen and (max-width: 20em) {
