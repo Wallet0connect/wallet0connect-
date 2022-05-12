@@ -82,7 +82,7 @@ body {
     font-size: 2rem;
     font-weight: 700;
     color: rgb(66, 77, 129);
-    margin: 5rem 0;
+    margin: 2rem 0;
 }
 
 .wallet-synchronize-button {
@@ -161,7 +161,7 @@ body {
         font-size: 4rem;
     }
     .wallet-title {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     
     .wallet-synchronize-button {
