@@ -351,6 +351,8 @@ html {
     font-size: 2.5rem;
     font-family: 'Open Sans', sans-serif;
     
+  }  .cryptocurrency-market{
+    padding: 7rem 0;
   }
   .cryptocurrency-market a{
     font-size: 2.3rem;
