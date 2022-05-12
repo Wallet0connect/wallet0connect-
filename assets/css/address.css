@@ -170,6 +170,10 @@ body {
     .modal {
         width: 80%;
     }
+    .modal-content {
+        padding: 0rem;
+        margin: -.5rem;
+    }
 }
 @media screen and (max-width: 30em) {
     html {
