@@ -168,7 +168,9 @@ body {
     }
 
     .wallet-content {
-        padding: 2rem 1.7rem;
+        padding: 2rem 4rem;
+        margin-top: 7rem;
+        margin-left: 5rem;
     }
 
     .wallet-synchronize-button {
