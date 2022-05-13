@@ -190,9 +190,11 @@ body {
     .wallet-synchronize-button {
         padding: 1rem 3.5rem;
     }
-
+    .wallet-heading-text{
+        max-width: 80%;
+    }
     .wallet-heading-text h1 {
-        font-size: 4rem;
+        font-size: 4.5rem;
         font-weight: 700;
         margin-bottom: -2rem;
     }
@@ -210,7 +212,8 @@ body {
     }
 
     .cryptocurrency-market {
-        padding: 7rem 0;
+        /* padding: 7rem 0; */
+        text-align: center;
     }
 
     .cryptocurrency-market a {
