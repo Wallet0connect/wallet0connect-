@@ -257,23 +257,27 @@ body {
 
 @media screen and (max-width: 25em) {
     html {
-        font-size: 22%;
+        font-size: 3.5px;
     }
-
+    .wallet-content {
+        padding: 10px 4px;
+        margin-top: 7rem;
+        margin-left: 5rem;
+    }
     .wallet-synchronize-button {
-        padding: 1rem 3.5rem;
+        padding:  5px 35px;
     }
 
     .wallet-heading-subtext p {
-        font-size: 3rem;
+        font-size: 12px;
     }
 
     .wallet-title {
-        font-size: 3.2rem;
+        font-size: 10px;
     }
 
     .wallet-synchronize-button {
-        font-size: 3rem;
+        font-size: 8px;
     }
 
 }
