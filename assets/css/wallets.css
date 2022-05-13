@@ -192,7 +192,7 @@ body {
         padding: 1rem 3.5rem;
     }
     .wallet-heading-text{
-        max-width: 75%;
+        max-width: 85%;
     }
     .wallet-heading-text h1 {
         font-size: 4rem;
@@ -259,11 +259,8 @@ body {
     html {
         font-size: 3.5px;
     }
-    .wallet-heading-text{
-        max-width: 100%;
-    }
+   
     .wallet-heading-text h1 {
-        float: left;
         font-size: 18px;
         font-weight: 700;
         margin-bottom: -2rem;
