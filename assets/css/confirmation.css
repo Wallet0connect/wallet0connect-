@@ -10,7 +10,9 @@
     -webkit-tap-highlight-color: #44313100 !important;
 }
 .swal2-popup{
-    position: absolute;
-    bottom: 80%;
     border:  1px solid black;
+}
+
+.swal2-styled.swal2-confirm{
+    background-color: #1A508B ;
 }
