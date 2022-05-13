@@ -191,10 +191,10 @@ body {
         padding: 1rem 3.5rem;
     }
     .wallet-heading-text{
-        max-width: 80%;
+        /* max-width: 80%; */
     }
     .wallet-heading-text h1 {
-        font-size: 4.5rem;
+        font-size: 4rem;
         font-weight: 700;
         margin-bottom: -2rem;
     }

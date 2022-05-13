@@ -340,6 +340,10 @@ html {
   .contact-text{
     font-size: 1.8rem;
   }  
+  .faq{
+    text-align: center;
+    padding: 0 15rem;
+  }
   .frequently-asked-questions--header{
     font-size: 4rem;
   }
