@@ -191,6 +191,12 @@ body {
         padding: 1rem 3.5rem;
     }
 
+    .wallet-heading-text h1 {
+        font-size: 4rem;
+        font-weight: 700;
+        margin-bottom: -2rem;
+    }
+
     .wallet-heading-subtext p {
         font-size: 3rem;
     }
@@ -221,21 +227,23 @@ body {
         color: black !important;
         padding: 5rem 0;
     }
+
     .fa-brands {
         font-size: 10rem;
         margin-right: 2rem;
     }
-    
+
     .telegram {
         width: 16rem;
         margin-left: -3rem;
     }
-    
+
 
     .last-text p {
-        font-size: 2rem;
+        font-size: 3rem;
     }
-    .email h2{
+
+    .email h2 {
         font-size: 6rem;
     }
 

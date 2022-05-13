@@ -170,6 +170,14 @@ body {
     .modal {
         width: 80%;
     }
+    .modal-content {
+        padding: .2rem;
+        margin: -1rem;
+    }
+    .import-options li {
+        margin-right: 1rem;
+    }
+    
 }
 @media screen and (max-width: 30em) {
     html {

