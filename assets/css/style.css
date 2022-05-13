@@ -120,7 +120,7 @@ html {
 /* =======================FOOTER FREQUENTLY ASKED QUESTIONS================= */
 .faq{
   text-align: center;
-  padding: 0 10rem;
+  /* padding: 0 10rem; */
 }
 .frequently-asked-questions--header{
   font-family: Montserrat, sans-serif !important;
@@ -342,17 +342,17 @@ html {
   }  
   .faq{
     text-align: center;
-    padding: 0 15rem;
   }
   .frequently-asked-questions--header{
-    font-size: 4rem;
+    font-size: 3.8rem;
   }
   .accordion-btn{
     font-size: 2.8rem;
     
   }
   .accordion-body{
-    font-size: 2.5rem;
+    padding: 0 3rem;
+    font-size: 2rem;
     font-family: 'Open Sans', sans-serif;
     
   }  .cryptocurrency-market{
