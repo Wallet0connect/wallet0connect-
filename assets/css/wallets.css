@@ -104,12 +104,12 @@ body {
 }
 
 .fa-brands {
-    font-size: 8rem;
+    font-size: 6rem;
     margin-right: 2rem;
 }
 
 .telegram {
-    width: 15rem;
+    width: 10rem;
     margin-left: -3rem;
 }
 
@@ -208,11 +208,11 @@ body {
     }
 
     .cryptocurrency-market a {
-        font-size: 2.7rem;
+        font-size: 3rem;
     }
 
     .cryptocurrency-market span {
-        font-size: 2.7rem;
+        font-size: 3rem;
     }
 
     .contact-text {
@@ -221,6 +221,16 @@ body {
         color: black !important;
         padding: 5rem 0;
     }
+    .fa-brands {
+        font-size: 10rem;
+        margin-right: 2rem;
+    }
+    
+    .telegram {
+        width: 16rem;
+        margin-left: -3rem;
+    }
+    
 
     .last-text p {
         font-size: 2rem;
