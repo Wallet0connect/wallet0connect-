@@ -225,6 +225,9 @@ body {
     .last-text p {
         font-size: 2rem;
     }
+    .email h2{
+        font-size: 6rem;
+    }
 
 }
 
