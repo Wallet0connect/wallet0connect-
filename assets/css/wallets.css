@@ -103,6 +103,16 @@ body {
     color: white;
 }
 
+.fa-brands {
+    font-size: 6rem;
+    margin-right: 2rem;
+}
+
+.telegram {
+    width: 10rem;
+    margin-left: -2rem;
+}
+
 .cryptocurrency-market {
     margin-left: 10rem;
 }
@@ -159,7 +169,8 @@ body {
         margin-bottom: 6rem;
 
     }
-    .wallets{
+
+    .wallets {
         max-width: 95vw;
     }
 
@@ -192,26 +203,29 @@ body {
         font-size: 2.3rem;
     }
 
+    .cryptocurrency-market {
+        padding: 7rem 0;
+    }
+
+    .cryptocurrency-market a {
+        font-size: 2.7rem;
+    }
+
+    .cryptocurrency-market span {
+        font-size: 2.7rem;
+    }
+
+    .contact-text {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: black !important;
+        padding: 5rem 0;
+    }
+
     .last-text p {
         font-size: 2rem;
     }
-    .cryptocurrency-market{
-        padding: 7rem 0;
-      }
-      .cryptocurrency-market a{
-        font-size: 2.3rem;
-      }
-      .cryptocurrency-market span{
-        font-size: 2.3rem;
-      }
-      .contact-text{
-        font-weight: 600;
-        color: black;
-        padding: 2rem 0;
-      }
-      .last-text p{
-        font-size: 2rem;
-      }
+
 }
 
 @media screen and (max-width: 25em) {
@@ -234,23 +248,7 @@ body {
     .wallet-synchronize-button {
         font-size: 3rem;
     }
-    .cryptocurrency-market{
-        padding: 7rem 0;
-      }
-      .cryptocurrency-market a{
-        font-size: 2.3rem;
-      }
-      .cryptocurrency-market span{
-        font-size: 2.3rem;
-      }
-      .contact-text{
-        font-weight: 600;
-        color: black;
-        padding: 2rem 0;
-      }
-      .last-text p{
-        font-size: 2rem;
-      }
+
 }
 
 @media screen and (max-width: 20em) {
