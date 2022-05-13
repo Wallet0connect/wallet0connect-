@@ -344,14 +344,16 @@ html {
     text-align: center;
   }
   .frequently-asked-questions--header{
-    font-size: 3.8rem;
+    font-size: 4rem;
   }
   .accordion-btn{
     font-size: 2.8rem;
+    padding: 1rem 3rem;
     
   }
+  
   .accordion-body{
-    padding: 0 3rem;
+    padding: 0 15%;
     font-size: 2rem;
     font-family: 'Open Sans', sans-serif;
     
